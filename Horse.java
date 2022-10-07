@@ -1,7 +1,7 @@
-// Use "Extend" for the public class so the sub classes have the same properties as the public class.
+// I used "Extends" for the public class so the sub classes have the same properties as the public class. 
 public class Horse extends Stable {
 
-  // Information about the horse it is abbreviated to make it easier to read.
+  // Information about the horse is abbreviated to make it easier to read.
   String name;
   Double weight;
   Boolean tame;
@@ -13,7 +13,7 @@ this.name = name;
 this.weight = weight;
 this.tame = tame;
 
-  // I used get to return the name, weight and whether or not the horse is tamed.
+  //  I used the get function to return the name, weight, and whether or not the horse is tamed.
  
   } 
   // Get and return the name of the horse.
@@ -28,7 +28,7 @@ public String getName()
     return weight;
   }
 
-  // Get and return if wheter or not the horse is tamed.
+  // Get and return if the horse is or is not tamed.
   public Boolean getTame() 
   {
     return tame;
