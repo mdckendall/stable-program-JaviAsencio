@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Stable
 {
 
-  // String the address
+  // String the address.
   String address;
 
   // Make the array list for the horse.

@@ -8,12 +8,12 @@ public class Horse extends Stable {
 
   public Horse(String name, Double weight, Boolean tame) {
 
-// Prevent any confusion with the code by using the "this" keyword.
+// Prevent any confusion within the code.
 this.name = name;
 this.weight = weight;
 this.tame = tame;
 
-  //  I used the get function to return the name, weight, and whether or not the horse is tamed.
+  // I used the get function to return the name, weight, and whether or not the horse is tamed.
  
   } 
   // Get and return the name of the horse.
