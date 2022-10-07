@@ -12,9 +12,7 @@ public class Horse extends Stable {
 this.name = name;
 this.weight = weight;
 this.tame = tame;
-
-  // I used the get function to return the name, weight, and whether or not the horse is tamed.
- 
+    
   } 
   // Get and return the name of the horse.
 public String getName() 
